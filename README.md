@@ -4,4 +4,4 @@
 
 # Set up instructions
 
-[![](https://github.com/marius004/Chess-Game/blob/master/video/setup.mov)](https://github.com/marius004/Chess-Game/blob/master/video/setup.gif)
+[![](https://github.com/marius004/Chess-Game/blob/master/video/setup.mov)](https://github.com/marius004/Chess-Game/blob/master/video/setup.mov)
