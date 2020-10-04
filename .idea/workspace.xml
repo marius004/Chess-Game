@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a80c40f-13b3-40ab-9964-e4e60e7a111d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chess/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/board/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/board/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/board/PlayerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/board/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/PieceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/Rook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/pieces/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/ui/MainFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/chess/ui/Util.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chess/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chess/chess.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../chess/img/black_bishop.gif" afterDir="false" />
@@ -171,7 +154,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iQ1TuoRyBuNeigQRlfzfpx9xWl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
