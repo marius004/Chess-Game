@@ -51,6 +51,7 @@ public abstract class Piece {
             return true;
 
         final Piece piece = (Piece) obj;
-        return piece.rowId == this.rowId && piece.colId == this.colId && piece.color == this.color && this.pieceType == piece.pieceType;
+        return piece.rowId == this.rowId && piece.colId == this.colId &&
+                piece.color == this.color && this.pieceType == piece.pieceType;
     }
 }

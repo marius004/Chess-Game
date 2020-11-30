@@ -2,54 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a80c40f-13b3-40ab-9964-e4e60e7a111d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../chess/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/chess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/black_bishop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/black_king.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/black_knight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/black_pawn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/black_queen.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/black_rook.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/green_dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/illegal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/red_dot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/white_bishop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/white_king.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/white_knight.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/white_pawn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/white_queen.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/img/white_rook.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/Color$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/Color$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/Color.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/Board.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/Move.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/PlayerType$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/PlayerType$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/PlayerType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/Tile$EmptyTile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/Tile$OccupiedTile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/board/Tile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/Bishop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/King.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/Knight.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/Pawn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/Piece.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/PieceType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/Queen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/Rook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/pieces/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/player/Player$BlackPlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/player/Player$WhitePlayer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/player/Player.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/ui/MainFrame$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/ui/MainFrame$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/ui/MainFrame$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/ui/MainFrame$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/ui/MainFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/ui/Util$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chess/out/production/chess/com/chess/ui/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" afterPath="$PROJECT_DIR$/../.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/ui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/ui/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/ui/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/ui/Util.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../IELTS/WRITING/TASK1/General Writing Sample Task 1 #72.rtf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../IELTS/WRITING/TASK1/General Writing Sample Task 1 #75.rtf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JarvisProject/API/CommandRunner.py" beforeDir="false" />
@@ -120,24 +89,31 @@
       <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/TO DO" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/TRAINING" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/weight converter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/board/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Bishop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Pawn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Queen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Rook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/PlayerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Tile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Bishop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Knight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Pawn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/PieceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Queen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Rook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/player/Player.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/BoardFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/ui/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chess/src/com/chess/ui/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/A" beforeDir="false" afterPath="$PROJECT_DIR$/../contest/A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/B" beforeDir="false" afterPath="$PROJECT_DIR$/../contest/B" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/C" beforeDir="false" afterPath="$PROJECT_DIR$/../contest/C" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/D" beforeDir="false" afterPath="$PROJECT_DIR$/../contest/D" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/E" beforeDir="false" afterPath="$PROJECT_DIR$/../contest/E" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/F" beforeDir="false" afterPath="$PROJECT_DIR$/../contest/F" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/MainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contest/A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contest/B" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contest/C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contest/D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contest/E" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../contest/F" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../diametru_arbore/cmake-build-debug/input.in" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../diametru_arbore/cmake-build-debug/output.out" beforeDir="false" />
     </list>
@@ -195,21 +171,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom" timestamp="1601826850702">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1606748754777">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606748754777" />
     <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850702" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center" timestamp="1601826850701">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1606748754774">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606748754774" />
     <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850701" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left" timestamp="1601826850700">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1606748754772">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606748754772" />
     <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850700" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right" timestamp="1601826850701">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1606748754776">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606748754776" />
     <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850701" />
   </component>
 </project>

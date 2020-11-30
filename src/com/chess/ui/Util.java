@@ -2,6 +2,7 @@ package com.chess.ui;
 
 import com.chess.Color;
 import com.chess.board.PlayerType;
+import com.chess.board.Tile;
 import com.chess.pieces.PieceType;
 
 import javax.swing.*;
@@ -40,7 +41,6 @@ public class Util {
         final String message = (player == PlayerType.WHITE ? "White player is in check" : "Black player is in check");
         final String popUpTitle = "Check State";
 
-        JOptionPane.getRootFrame().dispose();
         JOptionPane.showMessageDialog(frame, message, popUpTitle, JOptionPane.WARNING_MESSAGE);
     }
 
@@ -49,7 +49,23 @@ public class Util {
         final String message = (player == PlayerType.BLACK ? "The white player won the game" : "The black player won the game");
         final String popUpTitle = "Checkmate State";
 
-        JOptionPane.getRootFrame().dispose();
         JOptionPane.showMessageDialog(frame, message, popUpTitle, JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    // https://stackoverflow.com/questions/14382064/java-how-to-change-a-local-variable-within-an-event-listener
+   static final class Wrapper<T> {
+        private T value;
+
+        public Wrapper(final T data) {
+            this.value = data;
+        }
+
+        public void setValue(final T data) {
+            this.value = data;
+        }
+
+        public T getValue() {
+            return this.value;
+        }
     }
 }

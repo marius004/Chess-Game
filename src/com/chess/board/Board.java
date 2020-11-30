@@ -48,6 +48,10 @@ public final class Board {
         return this.currentPlayer;
     }
 
+    public Tile getTile(final int rowId, final int colId) {
+        return config[rowId][colId];
+    }
+
     public Player getOpponentPlayer() {
         return (this.playerToTurn == PlayerType.WHITE ? blackPlayer : whitePlayer);
     }

@@ -82,6 +82,8 @@ public class MainFrame {
 
     private void addTileEventListeners() {
 
+        var booleanWrapper = new Util.Wrapper<Boolean>(false);
+
         for (int i = 0; i < 8; ++i) {
             for (int j = 0; j < 8; ++j) {
 
@@ -91,7 +93,9 @@ public class MainFrame {
                 label.addMouseListener(new MouseAdapter() {
 
                     @Override
-                    public void mouseClicked(MouseEvent e) {
+                    public void mouseClicked(final MouseEvent e) {
+
+                        booleanWrapper.setValue(false);
 
                         // set the piece we want to move
                         if (board.getPiece(ROW, COL) != null &&
@@ -141,6 +145,8 @@ public class MainFrame {
 
                             if (makeMove) {
                                 Board aux = newMove.makeMove();
+
+                                booleanWrapper.setValue(aux.getCurrentPlayer().isInCheck());
 
                                 if (aux.getOpponentPlayer().isInCheck()) {
                                     pieceToMove = null;
@@ -192,6 +198,8 @@ public class MainFrame {
 
                                 Board aux = newMove.makeMove();
 
+                                booleanWrapper.setValue(aux.getCurrentPlayer().isInCheck());
+
                                 if (aux.getOpponentPlayer().isInCheck()) {
                                     pieceToMove = null;
                                     return;
@@ -235,8 +243,11 @@ public class MainFrame {
                                 Util.showCheckMatePopUp(frame, PlayerType.BLACK);
 
                             restoreToInitialBoard();
+                            booleanWrapper.setValue(false);
                             return;
-                        } else if (pieceToMove == null && board.getCurrentPlayer().isInCheck()) {
+
+                        } else if (pieceToMove == null && board.getCurrentPlayer().isInCheck() && booleanWrapper.getValue() == true) {
+                            booleanWrapper.setValue(false);
                             Util.showCheckPopUp(frame, board.getPlayerToTurn());
                             return;
                         }
