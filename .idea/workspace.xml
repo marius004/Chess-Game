@@ -2,120 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a80c40f-13b3-40ab-9964-e4e60e7a111d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" afterPath="$PROJECT_DIR$/../.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chess/board/LegalMovesCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/chess/board/StandardBoardCreator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/board/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/board/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Bishop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Bishop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/King.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/King.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Knight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Queen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Queen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Rook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Rook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/pieces/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/player/Player$BlackPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/player/Player$BlackPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/player/Player$WhitePlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/player/Player$WhitePlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/player/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chess-Game/com/chess/ui/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/board/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/PieceType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/PieceType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/pieces/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/pieces/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/ui/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/ui/MainFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/ui/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/ui/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IELTS/WRITING/TASK1/General Writing Sample Task 1 #72.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IELTS/WRITING/TASK1/General Writing Sample Task 1 #75.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/CommandRunner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/FILES/message.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/FileReader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/Jarvis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/SCRIPTS/Command.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/SCRIPTS/PlayMusicCommand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/SCRIPTS/WebOpenCommand.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/API/VoiceListener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JarvisProject/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/CSS/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/.elephant.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/.rhino.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/.snail.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/bgc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/cow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/marine.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/ocean-life.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/tiger.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/ANIMAL PLANET/IMAGES/tucu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/HTML/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/address.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/graph.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/info-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/iphone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/mail.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/multi-user.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/plug.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/rocket.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/showcase.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/speed.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/support.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/APP THEME/IMAGES/umbrella.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/CSS/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/HTML/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/.main.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/business.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/donuts.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/percentage.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/settings.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/sport-team.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Css Grid Project/IMAGES/www.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/CSS/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/.chef-special.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/.pasta.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/.restaurant.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/italy-flag-small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/linkedin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Italian Restaurant/IMAGES/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Portofolio/CSS/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/Portofolio/IMAGES/web-developer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/SING UP FORM/IMAGES/.background2.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/SING UP FORM/IMAGES/.miami1.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/TRAVEL WEB TEMPLATE/IMAGES/.background.jpg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/WEB DESIGN COMPANY/CSS/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/WEB DESIGN COMPANY/HTML/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/WEB DESIGN COMPANY/IMAGES/logo_brush.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/WEB DESIGN COMPANY/IMAGES/logo_css.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/WEB DESIGN COMPANY/IMAGES/logo_html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/HTML &amp; CSS/WEB DESIGN COMPANY/IMAGES/showcase.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/LEARNING" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/Quiz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/TO DO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/TRAINING" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PROJECTS/JS/weight converter" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Board.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Move.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/PlayerType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/board/Tile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Bishop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/King.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Knight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Pawn.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Piece.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/PieceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Queen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Rook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/pieces/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/player/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/BoardFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/MainFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chess/src/com/chess/ui/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/A" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/C" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/E" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../contest/F" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../diametru_arbore/cmake-build-debug/input.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../diametru_arbore/cmake-build-debug/output.out" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +63,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.chess.Main" />
@@ -151,12 +85,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -167,29 +113,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601825012453</updated>
+      <workItem from="1618497731842" duration="46000" />
+      <workItem from="1618497786126" duration="3256000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1398" height="229" key="GridCell.Tab.0.bottom" timestamp="1606748754777">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606748754777" />
-    <state width="1398" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850702" />
-    <state width="1398" height="229" key="GridCell.Tab.0.center" timestamp="1606748754774">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606748754774" />
-    <state width="1398" height="231" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850701" />
-    <state width="1398" height="229" key="GridCell.Tab.0.left" timestamp="1606748754772">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606748754772" />
-    <state width="1398" height="231" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850700" />
-    <state width="1398" height="229" key="GridCell.Tab.0.right" timestamp="1606748754776">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="229" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606748754776" />
-    <state width="1398" height="231" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1601826850701" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

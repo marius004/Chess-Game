@@ -4,10 +4,7 @@ import com.chess.board.Tile.OccupiedTile;
 import com.chess.pieces.Piece;
 import com.chess.pieces.Util;
 
-import java.util.ArrayList;
-
 import static com.chess.board.Tile.*;
-import static java.lang.System.exit;
 
 public final class Move {
 
@@ -78,9 +75,10 @@ public final class Move {
         return new Board(newBoardConfiguration, PlayerType.WHITE);
     }
 
+    /// make the move if and only if the move is allowed
     public Board makeMove() {
 
-        final ArrayList<Move> legalMoves = board.getCurrentPlayerLegalMoves();
+        var legalMoves = board.getCurrentPlayerLegalMoves();
         Board ret = this.board;
 
         for (Move move : legalMoves) {

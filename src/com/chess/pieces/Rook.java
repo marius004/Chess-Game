@@ -6,10 +6,9 @@ import com.chess.board.Move;
 
 import java.util.ArrayList;
 
-// TODO bug a rook cannot jump over a piece
 public final class Rook extends Piece {
 
-    public static int[][] legalMovesDirections = {
+    public static int[][] movingDirections = {
             { +1, 0 },
             { -1, 0 },
             { 0, +1 },
@@ -24,14 +23,14 @@ public final class Rook extends Piece {
     public ArrayList<Move> calculateLegalMoves(final Board board) {
         ArrayList<Move> legalMoves = new ArrayList<>();
 
-        for(int i = 0;i < legalMovesDirections.length;++i) {
+        for(int i = 0; i < movingDirections.length; ++i) {
 
-            int newRowId = this.rowId + legalMovesDirections[i][0];
-            int newColId = this.colId + legalMovesDirections[i][1];
+            int newRowId = this.rowId + movingDirections[i][0];
+            int newColId = this.colId + movingDirections[i][1];
 
-            while(Util.isValideCoordonate(newRowId, newColId)) {
+            while(Util.isValidCoordinate(newRowId, newColId)) {
 
-                // there is no piece at the newly created coordonates
+                // there is no piece at the newly created coordinates
                 if(board.getPiece(newRowId, newColId) == null) {
                     legalMoves.add(new Move(board, this, newRowId, newColId));
                 }
@@ -43,8 +42,8 @@ public final class Rook extends Piece {
                     break;
                 }
 
-                newRowId += legalMovesDirections[i][0];
-                newColId += legalMovesDirections[i][1];
+                newRowId += movingDirections[i][0];
+                newColId += movingDirections[i][1];
             }
         }
 
@@ -57,12 +56,12 @@ public final class Rook extends Piece {
     }
 
     @Override
-    public Rook makePiece(final int row, final int col, final Color color) {
-        return new Rook(row, col, color);
+    public String toString() {
+        return this.color == Color.WHITE ? "R" : "r";
     }
 
     @Override
-    public String toString() {
-        return this.color == Color.WHITE ? "R" : "r";
+    public Rook makePiece(final int row, final int col, final Color color) {
+        return new Rook(row, col, color);
     }
 }

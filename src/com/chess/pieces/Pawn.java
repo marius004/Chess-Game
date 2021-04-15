@@ -16,7 +16,7 @@ public final class Pawn extends Piece {
     public ArrayList<Move> calculateLegalMoves(final Board board) {
         ArrayList<Move> legalMoves = new ArrayList<>();
 
-        // jump 2 blocks
+        // jump 2 tiles
         if(this.color == Color.WHITE && this.rowId == 6 &&
                 board.getPiece(rowId - 2, colId) == null &&
                 board.getPiece(rowId - 1, colId) == null)
@@ -28,20 +28,20 @@ public final class Pawn extends Piece {
 
         // attack move
         if(this.color == Color.WHITE) {
-            if(Util.isValideCoordonate(this.rowId - 1, this.colId - 1) &&
+            if(Util.isValidCoordinate(this.rowId - 1, this.colId - 1) &&
                     board.getPiece(this.rowId - 1, this.colId - 1) != null &&
                     board.getPiece(this.rowId - 1, this.colId - 1).getColor() != this.color)
                 legalMoves.add( new Move(board,this, this.rowId - 1, this.colId - 1, board.getPiece(this.rowId - 1, this.colId - 1) ));
-            if (Util.isValideCoordonate(this.rowId - 1, this.colId + 1) &&
+            if (Util.isValidCoordinate(this.rowId - 1, this.colId + 1) &&
                     board.getPiece(this.rowId - 1, this.colId + 1) != null &&
                     board.getPiece(this.rowId - 1, this.colId + 1).getColor() != this.color)
                 legalMoves.add( new Move(board,this, this.rowId - 1, this.colId + 1, board.getPiece(this.rowId - 1, this.colId + 1) ));
         }else {
-            if(Util.isValideCoordonate(this.rowId + 1, this.colId - 1) &&
+            if(Util.isValidCoordinate(this.rowId + 1, this.colId - 1) &&
                     board.getPiece(this.rowId + 1, this.colId - 1) != null &&
                     board.getPiece(this.rowId + 1, this.colId - 1).getColor() != this.color)
                 legalMoves.add( new Move(board,this, this.rowId + 1, this.colId - 1, board.getPiece(this.rowId + 1, this.colId - 1) ));
-            if (Util.isValideCoordonate(this.rowId + 1, this.colId + 1) &&
+            if (Util.isValidCoordinate(this.rowId + 1, this.colId + 1) &&
                     board.getPiece(this.rowId + 1, this.colId + 1) != null &&
                     board.getPiece(this.rowId + 1, this.colId + 1).getColor() != this.color)
                 legalMoves.add( new Move(board,this, this.rowId + 1, this.colId + 1, board.getPiece(this.rowId + 1, this.colId + 1) ));
@@ -49,10 +49,10 @@ public final class Pawn extends Piece {
 
         // advance move
         if(this.color == Color.WHITE &&
-                Util.isValideCoordonate(this.rowId - 1, this.colId) &&
+                Util.isValidCoordinate(this.rowId - 1, this.colId) &&
                 board.getPiece(this.rowId - 1, this.colId) == null)
             legalMoves.add( new Move(board, this, this.rowId - 1, this.colId));
-        else if (this.color == Color.BLACK && Util.isValideCoordonate(this.rowId + 1, this.colId) &&
+        else if (this.color == Color.BLACK && Util.isValidCoordinate(this.rowId + 1, this.colId) &&
                 board.getPiece(this.rowId + 1, this.colId) == null)
             legalMoves.add( new Move(board, this, this.rowId + 1, this.colId));
 
@@ -65,12 +65,12 @@ public final class Pawn extends Piece {
     }
 
     @Override
-    public Pawn makePiece(final int row, final int col, final Color color) {
-        return new Pawn(row, col, color);
+    public String toString() {
+        return this.color == Color.WHITE ? "P" : "p";
     }
 
     @Override
-    public String toString() {
-        return this.color == Color.WHITE ? "P" : "p";
+    public Pawn makePiece(final int row, final int col, final Color color) {
+        return new Pawn(row, col, color);
     }
 }

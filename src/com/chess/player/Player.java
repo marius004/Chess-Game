@@ -6,15 +6,17 @@ import com.chess.board.Move;
 import com.chess.pieces.King;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Player {
 
     protected final Board board;
     protected final King king;
-    protected final ArrayList<Move> whiteLegalMoves;
-    protected final ArrayList<Move> blackLegalMoves;
+    protected final List<Move> whiteLegalMoves;
+    protected final List<Move> blackLegalMoves;
 
-    public Player(final Board board, final King king, final ArrayList<Move> whiteLegalMoves, final ArrayList<Move> blackLegalMoves) {
+    public Player(final Board board, final King king, final List<Move> whiteLegalMoves,
+                  final List<Move> blackLegalMoves) {
         this.board = board;
         this.king = king;
         this.whiteLegalMoves = whiteLegalMoves;
@@ -29,7 +31,8 @@ public abstract class Player {
 
     public static class WhitePlayer extends Player {
 
-        public WhitePlayer(final Board board, final King king, final ArrayList<Move> whiteLegalMoves, final ArrayList<Move> blackLegalMoves) {
+        public WhitePlayer(final Board board, final King king, final List<Move> whiteLegalMoves,
+                           final List<Move> blackLegalMoves) {
             super(board, king, whiteLegalMoves, blackLegalMoves);
         }
 
@@ -37,7 +40,8 @@ public abstract class Player {
         public boolean isInCheck() {
 
             for(Move move : blackLegalMoves)
-                if(move.getDestinationRow() == king.getRowId() && move.getDestinationCol() == king.getColId())
+                if(move.getDestinationRow() == king.getRowId() &&
+                        move.getDestinationCol() == king.getColId())
                     return true;
 
             return false;
@@ -61,7 +65,8 @@ public abstract class Player {
 
                 boolean isAttacked = false;
                 for(Move attackMove : blackLegalMoves) {
-                    if(attackMove.getDestinationRow() == move.getDestinationRow() && attackMove.getDestinationCol() == move.getDestinationCol()) {
+                    if(attackMove.getDestinationRow() == move.getDestinationRow() &&
+                            attackMove.getDestinationCol() == move.getDestinationCol()) {
                         isAttacked = true;
                         break;
                     }
@@ -89,7 +94,8 @@ public abstract class Player {
 
     public static class BlackPlayer extends Player {
 
-        public BlackPlayer(final Board board, final King king, final ArrayList<Move> whiteLegalMoves, final ArrayList<Move> blackLegalMoves) {
+        public BlackPlayer(final Board board, final King king, final List<Move> whiteLegalMoves,
+                           final List<Move> blackLegalMoves) {
             super(board, king, whiteLegalMoves, blackLegalMoves);
         }
 
@@ -97,7 +103,8 @@ public abstract class Player {
         public boolean isInCheck() {
 
             for(final Move move : whiteLegalMoves)
-                if(move.getDestinationRow() == king.getRowId() && move.getDestinationCol() == king.getColId())
+                if(move.getDestinationRow() == king.getRowId() &&
+                        move.getDestinationCol() == king.getColId())
                     return true;
 
             return false;
@@ -121,7 +128,8 @@ public abstract class Player {
 
                 boolean isAttacked = false;
                 for(Move attackMove : whiteLegalMoves) {
-                    if(attackMove.getDestinationRow() == move.getDestinationRow() && attackMove.getDestinationCol() == move.getDestinationCol()) {
+                    if(attackMove.getDestinationRow() == move.getDestinationRow() &&
+                            attackMove.getDestinationCol() == move.getDestinationCol()) {
                         isAttacked = true;
                         break;
                     }

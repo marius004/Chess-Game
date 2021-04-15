@@ -36,6 +36,7 @@ public class Util {
         }
     }
 
+    /// when a player is in the check state we show a popup
     public static void showCheckPopUp(final JFrame frame, final PlayerType player) {
 
         final String message = (player == PlayerType.WHITE ? "White player is in check" : "Black player is in check");
@@ -44,6 +45,7 @@ public class Util {
         JOptionPane.showMessageDialog(frame, message, popUpTitle, JOptionPane.WARNING_MESSAGE);
     }
 
+    /// when a player is in the check mate state we show a popup
     public static void showCheckMatePopUp(final JFrame frame, final PlayerType player) {
 
         final String message = (player == PlayerType.BLACK ? "The white player won the game" : "The black player won the game");
@@ -52,6 +54,7 @@ public class Util {
         JOptionPane.showMessageDialog(frame, message, popUpTitle, JOptionPane.INFORMATION_MESSAGE);
     }
 
+    // If asking why I need a wrapper
     // https://stackoverflow.com/questions/14382064/java-how-to-change-a-local-variable-within-an-event-listener
    static final class Wrapper<T> {
         private T value;

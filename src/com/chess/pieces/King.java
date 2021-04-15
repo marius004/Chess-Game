@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public final class King extends Piece {
 
-    public static int[][] legalMovesDirections = {
+    public static int[][] movingDirections = {
             { +1, +1 },
             { +1, -1 },
             { -1, +1 },
@@ -27,11 +27,11 @@ public final class King extends Piece {
     public ArrayList<Move> calculateLegalMoves(final Board board) {
         ArrayList<Move> legalMoves = new ArrayList<>();
 
-        for(int i = 0;i < legalMovesDirections.length;++i) {
-            final int newRowId = this.rowId + legalMovesDirections[i][0];
-            final int newColId = this.colId + legalMovesDirections[i][1];
+        for(int i = 0; i < movingDirections.length; ++i) {
+            final int newRowId = this.rowId + movingDirections[i][0];
+            final int newColId = this.colId + movingDirections[i][1];
 
-            if(Util.isValideCoordonate(newRowId, newColId)) {
+            if(Util.isValidCoordinate(newRowId, newColId)) {
 
                 if(board.getPiece(newRowId, newColId) == null) {
                     legalMoves.add(new Move(board ,this, newRowId, newColId));

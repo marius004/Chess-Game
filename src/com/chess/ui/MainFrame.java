@@ -1,12 +1,8 @@
 package com.chess.ui;
 
 import com.chess.Color;
-import com.chess.board.Board;
-import com.chess.board.Move;
-import com.chess.board.PlayerType;
-import com.chess.board.Tile;
+import com.chess.board.*;
 import com.chess.pieces.Piece;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -16,6 +12,9 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+
+/// TODO refactor the UI
+/// maybe break it into multiple components
 
 public class MainFrame {
 
@@ -30,7 +29,7 @@ public class MainFrame {
     public MainFrame() {
 
         frame = createJFrame();
-        board = Board.createStandardBoard();
+        board = StandardBoardCreator.create();
 
         createPanels();
         createMenuBar();
@@ -307,7 +306,7 @@ public class MainFrame {
 
     private void restoreToInitialBoard() {
 
-        board = Board.createStandardBoard();
+        board = StandardBoardCreator.create();
         final Tile[][] tiles = board.getTiles();
 
         for (int i = 0; i < 8; ++i) {

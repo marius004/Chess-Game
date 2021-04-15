@@ -2,6 +2,7 @@ package com.chess;
 
 import com.chess.board.PlayerType;
 
+/// this enum is used to represent the color of a piece
 public enum Color {
 
     WHITE {
@@ -20,6 +21,7 @@ public enum Color {
         public boolean canTurn(PlayerType playerType) {
             return playerType == PlayerType.WHITE;
         }
+
     }, BLACK {
 
         @Override
